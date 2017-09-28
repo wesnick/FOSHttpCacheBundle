@@ -32,19 +32,19 @@ matrix:
       env:
         - COMPOSER_FLAGS="--prefer-lowest"
         - SYMFONY_VERSION='2.8.*'
-    - php: 7.1
+    - php: 7.2
       env:
         - SYMFONY_VERSION='3.1.*'
         - PHPUNIT_FLAGS="--coverage-clover=coverage.clover"
         - COVERAGE=true
         - DOCCHECK=true
-    - php: 7.1
+    - php: 7.2
       env:
         - SYMFONY_VERSION='2.8.*'
-    - php: 7.1
+    - php: 7.2
       env:
         - SYMFONY_VERSION='3.1.*'
-    - php: 7.1
+    - php: 7.2
       env:
         - SYMFONY_VERSION='3.2.*'
     - php: hhvm
